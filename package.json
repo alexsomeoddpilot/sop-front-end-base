@@ -7,7 +7,11 @@
     "start": "node index.js",
     "postinstall": "grunt postinstall"
   },
-  "author": "",
+  "author": "Alex Robertson <alex@someoddpilot.com>",
+  "keywords": ["front-end", "grunt", "bower"],
+  "bugs": "https://github.com/alexsomeoddpilot/sop-front-end-base/issues",
+  "contributors": [],
+  "repository": "https://github.com/alexsomeoddpilot/sop-front-end-base",
   "license": "ISC",
   "devDependencies": {
     "grunt-watchify": "^0.1.0"
