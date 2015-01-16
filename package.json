@@ -1,26 +1,30 @@
 {
   "name": "sop-front-end-base",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "postinstall": "grunt postinstall"
   },
-  "author": "",
+  "author": "Alex Robertson <alex@someoddpilot.com>",
+  "keywords": ["front-end", "grunt", "bower"],
+  "bugs": "https://github.com/alexsomeoddpilot/sop-front-end-base/issues",
+  "contributors": [],
+  "repository": "https://github.com/alexsomeoddpilot/sop-front-end-base",
   "license": "ISC",
   "devDependencies": {
     "grunt-watchify": "^0.1.0"
   },
   "dependencies": {
     "connect": "^3.0.1",
-    "serve-static": "^1.2.3",
+    "serve-static": "^1.8.0",
     "grunt": "^0.4.5",
-    "grunt-contrib-stylus": "^0.17.0",
+    "grunt-contrib-stylus": "^0.20.0",
     "grunt-contrib-watch": "^0.6.1",
     "bower": "^1.3.6",
-    "grunt-bower-task": "^0.3.4",
+    "grunt-bower-task": "^0.4.0",
     "include-all": "^0.1.6",
-    "grunt-contrib-copy": "^0.5.0"
+    "grunt-contrib-copy": "^0.7.0"
   }
 }
